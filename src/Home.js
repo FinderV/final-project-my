@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import './App.css';
 import { slides } from './slides';
 
-function About() {
+function Home() {
     const [slide, setSlide] = useState(0);
     const {title, content, image} = slides[slide]
 
@@ -77,4 +77,4 @@ function About() {
     )
 }
 
-export default About;
+export default Home;
